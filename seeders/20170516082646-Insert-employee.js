@@ -15,15 +15,21 @@ module.exports = {
     return queryInterface.bulkInsert('Employees', [{
       name: "nugraha",
       position: "junior developer",
-      sellery: 8000000
+      sallary: 8000000,
+      createdAt: new Date(),
+      updatedAt: new Date()
     },{
       name: "cindy",
       position: "senior developer",
-      sellery: 18000000
+      sallary: 18000000,
+      createdAt: new Date(),
+      updatedAt: new Date()
     },{
       name: "cindy",
       position: "manager",
-      sellery: 28000000  
+      sallary: 28000000,
+      createdAt: new Date(),
+      updatedAt: new Date()
     }], {})
   },
 
