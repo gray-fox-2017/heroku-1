@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
       res.render('index', {
         employees : employee
       })
-    }
+    })
 });
 
 module.exports = router;
