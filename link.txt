@@ -1,0 +1,4 @@
+https://iraspp.herokuapp.com/cool
+https://iraspp.herokuapp.com/db
+https://iraspp.herokuapp.com/
+https://iraspp.herokuapp.com/times
