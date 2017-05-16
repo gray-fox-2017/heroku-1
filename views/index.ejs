@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Employee Test</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>Employess List</h1>
+    <div class="container">
+      <table class = "table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Sellery</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% employees.forEach((employee)={ %>
+          <tr>
+            <th><%= employee.id %></th>
+            <th><%= employee.name %></th>
+            <th><%= employee.position %></th>
+            <th><%= employee.sellery %></th>
+          </tr>
+          <%})%>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
