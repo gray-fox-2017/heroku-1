@@ -44,5 +44,5 @@ module.exports = {
       return queryInterface.bulkDelete('Person', null, {});
     */
   }
-  return queryInterface.bulkDelete('Students', null, {});
+//  return queryInterface.bulkDelete('Students', null, {});
 };
