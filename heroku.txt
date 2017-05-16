@@ -1,0 +1,4 @@
+https://getting-started-aldyadk.herokuapp.com/
+https://getting-started-aldyadk.herokuapp.com/cool
+https://getting-started-aldyadk.herokuapp.com/times
+https://getting-started-aldyadk.herokuapp.com/db
